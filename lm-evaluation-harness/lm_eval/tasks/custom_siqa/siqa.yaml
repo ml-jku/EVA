@@ -1,0 +1,16 @@
+task: custom_siqa
+dataset_path: social_i_qa
+dataset_name: null
+output_type: multiple_choice
+training_split: train
+validation_split: validation
+process_docs: !function utils.process_docs
+doc_to_text: "{{query}}"
+doc_to_target: "{{ (label|int) - 1 }}"
+doc_to_choice: "choices"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

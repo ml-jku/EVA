@@ -77,3 +77,15 @@ After setting these parameters, you can execute the fine-tuning pipeline as expl
 - gradient_accumulation_steps 4
 - learning_rate 5e-4
 - epochs 1
+
+
+### Citation
+
+In case you find our work useful, please consider citing it.
+
+    @article{paischer2024eva,
+        title={One Initialization to Rule them All: Fine-tuning via Explained Variance Adaptation}, 
+        author={Fabian Paischer, Lukas Hauzenberger, Thomas Schmied, Benedikt Alkin, Marc Peter Deisenroth, Sepp Hochreiter},
+        journal={arXiv preprint arXiv:2410.07170},
+        year={2024}
+    }

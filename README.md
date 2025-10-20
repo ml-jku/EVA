@@ -1,19 +1,20 @@
-# One Initialization to Rule them All: Fine-tuning via Explained Variance Adaptation
+# Parameter Efficient Fine-tuning via Explained Variance Adaptation
 
 This repository contains code for [EVA](https://arxiv.org/abs/2410.07170)
 
 **Authors:**
 
-Fabian Paischer<sup>1*</sup>,
-Lukas Hauzenberger<sup>1*</sup>,
+Fabian Paischer<sup>1,3*</sup>,
+Lukas Hauzenberger<sup>1,4*</sup>,
 Thomas Schmied<sup>1</sup>,
-Benedikt Alkin<sup>1,3</sup>,
+Benedikt Alkin<sup>1</sup>,
 Marc Peter Deisenroth<sup>2</sup>,
-Sepp Hochreiter<sup>1,3</sup>
+Sepp Hochreiter<sup>1,4</sup>
 
 <sup>*</sup> equal contribution
 <br><sup>1</sup> ELLIS Unit, LIT AI Lab, Institute for Machine Learning, JKU Linz, Austria</br>
 <br><sup>2</sup> University College London</br>
+<br><sup>3</sup> Emmi AI, Linz, Austria</br>
 <br><sup>3</sup> NXAI GmbH, Linz, Austria</br>
 
 ## Method
